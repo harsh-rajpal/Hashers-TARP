@@ -1,4 +1,4 @@
-# TEAM Hashers-TARP
+# TEAM Hashers
 
 Project for Technical Answer to Real-World Problems.    
 Group members:    
