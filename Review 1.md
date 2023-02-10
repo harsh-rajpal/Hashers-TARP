@@ -267,7 +267,9 @@ tуреs.</li></ul</td>
    </tr>
       
 </table>
-      
+ 
+      <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Timeline.png?raw=true">
+<img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/workflow.jpg?raw=true">
 ## Tools/Software - Implementation
       
  ### 1. Mediapipe Library
