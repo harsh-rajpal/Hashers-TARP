@@ -268,7 +268,11 @@ tуреs.</li></ul</td>
       
 </table>
  
-      <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Timeline.png?raw=true">
+ ## Timeline
+<img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Timeline.png?raw=true">
+      <br/>
+ 
+ ## Workflow
 <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/workflow.jpg?raw=true">
 ## Tools/Software - Implementation
       
