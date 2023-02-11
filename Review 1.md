@@ -15,7 +15,7 @@ Different Traffic Gesture - Pose detection
 | 20BCI0128| Aditi Nitin Tagalpallewar |
 | 20BCI0176 | Yash Bobde|
 | 20BCI0271 | Harsh Rajpal |
-| 20BCE2759 | Payal |
+| 20BCE2759 | Payal Maheshwari |
 | 20BCI0138| Bagade Shaunak Rahul |
 | 20BCI0169 | Konark Patel|
 | 20BCI0159 | Nikhil Harshwardhan|
