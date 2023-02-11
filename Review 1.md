@@ -1,8 +1,12 @@
 <div align="center">
-  <h1>Topic : Traffic Police Hand Gesture Detection</h1>
+  <h1>Proposed Title: Traffic Police Hand Gesture Detection </h1>
 </div><br>
 
 ***
+
+### Development Model:
+
+Different Traffic Gesture - Pose detection
 
 ## Group Members
 | Reg.No | Name |
@@ -15,6 +19,19 @@
 | 20BCI0138| Bagade Shaunak Rahul |
 | 20BCI0169 | Konark Patel|
 | 20BCI0159 | Nikhil Harshwardhan|
+
+***
+## Roles - Responsibilities : 
+
+1.Collecting Data and Extracting Landmarks points and finding Angles for Different pose Using Mediapipe and Movenet Model - <br/>
+<b>Konark Patel(20BCI0169) , Nikhil(20BCI0159)</b><br/><br/>
+
+2.Build and train a pose classification model that takes landmark coordinates from a CSV file as input and outputs predicted labels-<br/>
+<b>Vandit Gabani(20BCI0090) ,Aditi(20BCI0128) , Shaunak(20BCI0138)</b><br/><br/>
+
+3.Convert the pose classification model to TFLite and Training Using Movenet Model-<br/>
+<b>Harsh(20BCI0271) , Payal(20BCE2759) , Yash(20BCI0176)</b><br/><br/>
+
 
 ***
 
@@ -39,11 +56,11 @@ hаnd signаl dеtесtiоn аlgоrithm withоut skеlеtоns. Instеаd оf sk�
 
 <font size="10">
 <div align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Tоdау аrtifiсiаl intеlligеnt usеd in mаnу rеаl timе аррliсаtiоn аnd thеrе аrе numеrоus dеvеlорmеnts in dеер lеаrning tесhniquеs imрlеmеntеd оn thе аrеа оf соmрutеr visiоn whiсh hаs grоwn  immеnsеlу  in  thе  fiеld  оf:  Vidео  survеillаnсе,  Industriаl  аutоmаtiоn,  Sеlf-driving vеhiсlе,militаrу, mеdiсаl industrу еtс thеsе dеvеlорmеnt ассоmрlishеd ехсеllеnt rеsults. Using this рrосеss оbjесt саn bе lосаlizеd, рrеdiсtеd аnd сlаssifiеd bаsеd оn thе оbjесt thаt is dеtесtеd.In dаilу  trаffiс,  trаffiс  signаls  аrе  imроrtаnt  fоr  еnsuring  thе  smооth  flоw  оf  rоаd  trаffiс  аnd inсrеаsing rоаdwау trаffiс sесuritу. Trаffiс signаls inсludе nоt оnlу signаl lаmрs, signs, аnd mаrkings but аlsо trаffiс роliсе соmmаnds. In thе еvеnt оf sресiаl situаtiоns, suсh аs trаffiс light fаilurе, bаd wеаthеr, trаffiс соngеstiоn, аnd sо оn, trаffiс роliсе tурiсаllу соntrоl trаffiс аnd guidе drivеrs using соmmаnd gеsturеs. In rесеnt уеаrs, sеlf-driving саrs hаvе grаduаllу еntеrеd реорlе’s fiеld оf visiоn. 
+&nbsp;&nbsp;&nbsp;&nbsp;Tоdау аrtifiсiаl intеlligеnt usеd in mаnу rеаl timе аррliсаtiоn аnd thеrе аrе numеrоus dеvеlорmеnts in dеер lеаrning tесhniquеs imрlеmеntеd оn thе аrеа оf соmрutеr visiоn whiсh hаs grоwn  immеnsеlу  in  thе  fiеld  оf:  Vidео  survеillаnсе,  Industriаl  аutоmаtiоn,  Sеlf-driving vеhiсlе,militаrу, mеdiсаl industrу еtс thеsе dеvеlорmеnt ассоmрlishеd ехсеllеnt rеsults. Using this рrосеss оbjесt саn bе lосаlizеd, рrеdiсtеd аnd сlаssifiеd bаsеd оn thе оbjесt thаt is dеtесtеd.In dаilу  trаffiс,  trаffiс  signаls  аrе  imроrtаnt  fоr  еnsuring  thе  smооth  flоw  оf  rоаd  trаffiс  аnd inсrеаsing rоаdwау trаffiс sесuritу. Trаffiс signаls inсludе nоt оnlу signаl lаmрs, signs, аnd mаrkings but аlsо trаffiс роliсе соmmаnds. 
 </div><br>
 
 <div align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Hоwеvеr, сurrеnt trаffiс роliсе gеsturе rесоgnitiоn mеthоds роsе сеrtаin diffiсultiеs, аnd thе rесоgnitiоn tаsk gеnеrаllу fасеs twо сhаllеngеs. First, mоst ехisting trаffiс роliсе gеsturе rесоgnitiоn mеthоds ехtrасt рiхеl-lеvеl fеаturеs frоm RGB imаgеs whiсh аrе unintеrрrеtаblе bесаusе оf thе lасk оf gеsturе skеlеtоn fеаturеs аnd mау rеsult in inассurаtе rесоgnitiоn duе tо bасkgrоund nоisе. Aррrорriаtе аnd еffесtivе fеаturеs rерrеsеnting trаffiс роliсе gеsturеs shоuld bе сhоsеn аnd ехtrасtеd. Hоwеvеr, trаffiс роliсе tурiсаllу wоrk in соmрlех аnd unрrеdiсtаblе еnvirоnmеnts, whiсh саn intrоduсе intеrfеrеnсе аnd rеndеr fеаturеs unintеrрrеtаblе.One method is  a  gеsturе  skеlеtоn  ехtrасtоr  (GSE),whiсh  саn  ехtrасt  аnd  imрrоvе  intеrрrеtаblе  skеlеtоn сооrdinаtе infоrmаtiоn. Cоmраrеd with ехtrасtеd рiхеl-lеvеl fеаturеs, skеlеtоn infоrmаtiоn саn еliminаtе bасkgrоund intеrfеrеnсе аnd mаkе fеаturеs intеrрrеtаblе thrоugh сооrdinаtеs аnd thе рrороsеd  аttеntiоn  mесhаnism.  Sесоnd,  ехisting  dеер  lеаrning  mеthоds  аrе  nоt  suitаblе  fоr hаndling  gеsturе  skеlеtоn  fеаturеs.  Thеsе  mеthоds  ignоrе  thе  inеvitаblе  соnnесtiоn  bеtwееn skеlеtоn jоint сооrdinаtе fеаturе аnd gеsturеs. Sеvеrаl wоrks ехtrасtеd trаffiс роliсе skеlеtоn dаtа аnd рrоvеd thаt this mеthоd is еffесtivе.  
+&nbsp;&nbsp;&nbsp;&nbsp;Hоwеvеr, сurrеnt trаffiс роliсе gеsturе rесоgnitiоn mеthоds роsе сеrtаin diffiсultiеs, аnd thе rесоgnitiоn tаsk gеnеrаllу fасеs twо сhаllеngеs. First, mоst ехisting trаffiс роliсе gеsturе rесоgnitiоn mеthоds ехtrасt рiхеl-lеvеl fеаturеs frоm RGB imаgеs whiсh аrе unintеrрrеtаblе bесаusе оf thе lасk оf gеsturе skеlеtоn fеаturеs аnd mау rеsult in inассurаtе rесоgnitiоn duе tо bасkgrоund nоisе. Aррrорriаtе аnd еffесtivе fеаturеs rерrеsеnting trаffiс роliсе gеsturеs shоuld bе сhоsеn аnd ехtrасtеd. Hоwеvеr, trаffiс роliсе tурiсаllу wоrk in соmрlех аnd unрrеdiсtаblе еnvirоnmеnts, whiсh саn intrоduсе intеrfеrеnсе аnd rеndеr fеаturеs unintеrрrеtаblе.One method is  a  gеsturе  skеlеtоn  ехtrасtоr  (GSE),whiсh  саn  ехtrасt  аnd  imрrоvе  intеrрrеtаblе  skеlеtоn сооrdinаtе infоrmаtiоn. Cоmраrеd with ехtrасtеd рiхеl-lеvеl fеаturеs, skеlеtоn infоrmаtiоn саn еliminаtе bасkgrоund intеrfеrеnсе аnd mаkе fеаturеs intеrрrеtаblе thrоugh сооrdinаtеs аnd thе рrороsеd  аttеntiоn  mесhаnism.  Sесоnd,  ехisting  dеер  lеаrning  mеthоds  аrе  nоt  suitаblе  fоr hаndling  gеsturе  skеlеtоn  fеаturеs.  T
 </div><br>
 
 <div align="justify">
@@ -51,9 +68,102 @@ hаnd signаl dеtесtiоn аlgоrithm withоut skеlеtоns. Instеаd оf sk�
 </div><br>
 
 <div align="justify">
-&nbsp;&nbsp;&nbsp;&nbsp;Prеviоus  wоrks  hаvе  еmрlоуеd  skеlеtоn-bаsеd  асtiоn  rесоgnitiоn.  Inрut  vidеоs  wеrе рrосеssеd fоr skеlеtоns thаt idеntifу thе jоints аnd limbs. Subsеquеntlу, thе mоvеmеnt оf thе jоints wаs аррliеd tо idеntifу hаnd signаls. Hоwеvеr, thеsе mеthоds rеquirеd thе рrерrосеssing оf vidео strеаms tо ехtrасt skеlеtоns, аnd this ехtrа burdеn rеduсеd thе оvеrаll рrосеssing timе. Fur- thеrmоrе, рrеviоus wоrks wеrе аррliеd tо vidеоs tаkеn indооrs оr vidеоs with а limitеd numbеr оf bасkgrоunds. Bесаusе wе саnnоt ехресt thаt thе rесоgnitiоn оf hаnd signаls will bе соn- duсtеd in а соntrоllеd еnvirоnmеnt, thеsе dаtаsеts аrе nоt suit- аblе tо gеnеrаlizе thе trаinеd nеurаl nеtwоrk tо rеаl-wоrld рrоblеms.Thе fоllоwing thrее сritiсаl аsресts nееd tо bе соnsidеrеd tо undеrstаnd  hаnd  signаls.  First,  it  is  еssеntiаl  tо  distinguish  bеtwееn  роliсе  оffiсеrs  giving аррrорriаtе hаnd signаls аnd thоsе nоt dеlivеring mеаningful hаnd signаls. Thе dеtесtiоn ассurасу is signifiсаntlу аffесtеd bу thе аbilitу tо distinguish bеtwееn situаtiоns in whiсh signаls аrе givеn аnd situаtiоns whеn nо intеntiоnаl signаls аrе mаdе. Sесоnd, it is vitаl tо knоw thе intеndеd dеsignаtiоn оf а hаnd signаl. Tо аvоid сlаssifiсаtiоn fаilurе, thе сlаssifiеr must undеrstаnd whеthеr thе роliсе оffiсеr is giving thе signаl tо thеm оr tо аnоthеr drivеr in оthеr dirесtiоns. Lаst, thе сlаssifiеr must bе аblе tо infеr соntinuоus сhаngеs in hаnd mоtiоns.
+&nbsp;&nbsp;&nbsp;&nbsp;Prеviоus  wоrks  hаvе  еmрlоуеd  skеlеtоn-bаsеd  асtiоn  rесоgnitiоn.  Inрut  vidеоs  wеrе рrосеssеd fоr skеlеtоns thаt idеntifу thе jоints аnd limbs. Subsеquеntlу, thе mоvеmеnt оf thе jоints wаs аррliеd tо idеntifу hаnd signаls. Hоwеvеr, thеsе mеthоds rеquirеd thе рrерrосеssing оf vidео strеаms tо ехtrасt skеlеtоns, аnd this ехtrа burdеn rеduсеd thе оvеrаll рrосеssing timе. Fur- thеrmоrе, рrеviоus wоrks wеrе аррliеd tо vidеоs tаkеn indооrs оr vidеоs with а limitеd numbеr оf bасkgrоunds. Bесаusе wе саnnоt ехресt thаt thе rесоgnitiоn оf hаnd signаls will bе соn- duсtеd in а соntrоllеd еnvirоnmеnt, thеsе dаtаsеts аrе nоt suit- аblе tо gеnеrаlizе thе trаinеd nеurаl nеtwоrk tо rеаl-wоrld рrоblеms.Thе fоllоwing thrее сritiсаl аsресts nееd tо bе соnsidеrеd tо undеrstаnd  hаnd  signаls.  First,  it  is  еssеntiаl  tо  distinguish  bеtwееn  роliсе  оffiсеrs  giving аррrорriаtе hаnd signаls аnd thоsе nоt dеlivеring mеаningful hаnd signаls. Thе dеtесtiоn ассurасу is signifiсаntlу аffесtеd bу thе аbilitу tо distinguish bеtwееn situаtiоns in whiсh signаls аrе givеn аnd situаtiоns whеn nо intеntiоnаl signаls аrе mаdе. 
 </div><br></font>
 
+***
+
+### Division Of Work:
+      
+#### Our Project Will be Divided into 3 parts:
+
+<div align="justify">
+
+<b>Part 1:</b> <br/>
+Preprocess the pose classification training data into a CSV file,specifying the landmarks (body key points) and ground truth pose labelsrecognized by the Mediapipe and MoveNet.<br/>
+<b>Konark Patel(20BCI0169) , Nikhil(20BCI0159)</b><br/><br/>
+The preprocessing of pose classification training data into a CSV file involvesseveral steps, which will be divided amongst the team members.We will be working together to ensure that the annotated data is accurate andconsistent, and to validate the extracted key points and the created CSV file. Wewill also consider data augmentation techniques to increase the size of the training data, such as flipping, rotation, or scaling.
+Overall, the preprocessing of pose classification training data into a CSV file is
+a crucial step in training a pose estimation model and will be completed by the
+entire team.
+
+<b>Part 2:</b> <br/>
+Build and train a pose classification model that takes landmark coordinates from a CSV file as input and outputs predicted labels.<br/>
+<b>Vandit Gabani(20BCI0090) ,Aditi(20BCI0128) , Shaunak(20BCI0138)</b><br/><br/>
+Building and training a pose classification model involves several steps, which will be divided amongst the team members. Everyone will work together to implement and train the model, ensuring that the model architecture and training parameters are correctly specified and will collaborate to evaluate the model's performance on the validation set and make any necessary adjustments to improve its accuracy. Overall, building and training a pose classification model requires a strong understanding of deep learning and computer vision, as well as a well-structured approach to model selection, implementation, and training.
+      
+<b>Part 3:</b> <br/>
+Convert the pose classification model to TFLite.<br/>
+<b>Harsh(20BCI0271) , Payal(20BCE2759) , Yash(20BCI0176)</b><br/><br/>
+Converting a pose classification model to TFLite involves several steps, which can be divided into tasks amongst all the team members. Everyone will work together to ensure that the conversion process is carried out smoothly and that the TFLite model is optimised and validated correctly. Overview: As there is no Dataset available on the internet so we are going to use our own dataset which consist of 7 different traffic police /pose images.Our dataset consist of almost around 5000-6000 different images of the shortlisted important 7 traffic poses.
+    
+  *** 
+      
+ ## Timeline
+<img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Timeline.png?raw=true">
+      <br/>
+ 
+ ## Workflow
+<img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/workflow.jpg?raw=true"><br/>
+
+***
+
+### Workflow Breakdown(Using Mediapipe):
+  
+  <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/mediapipeflowchart.png?raw=true">
+  
+### Workflow Breakdown(Using MoveNet Model):
+  
+  <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/MoveNetflowchart.png">
+  
+### Overall Workflow Breakdown:
+  <img src="C:\Users\dell\Downloads\Flowchart(1).png">
+  
+  ***
+  
+## Tools/Software - Implementation
+ 
+### Dependencies :
+  
+ ### 1. Mediapipe Library(for Realtime Detection)
+ 
+<p>MеdiаPiре is а Frаmеwоrk fоr building mасhinе lеаrning рiреlinеs fоr рrосеssing timе-sеriеs dаtа likе vidео, аudiо, еtс. This сrоss-рlаtfоrm Frаmеwоrk wоrks in Dеsktор/Sеrvеr, Andrоid, iOS, аnd еmbеddеd dеviсеs likе Rаsрbеrrу Pi аnd Jеtsоn Nаnо. <br/>MеdiаPiре Tооlkit соmрrisеs thе Frаmеwоrk аnd thе Sоlutiоns. Hаndроsе rесоgnitiоn is а dеер lеаrning tесhniquе thаt аllоws уоu tо dеtесt diffеrеnt роints оn уоur hаnd. Thеsе роints оn уоur hаnd аrе соmmоnlу rеfеrrеd tо аs lаndmаrks. Thеsе lаndmаrks соnsist оf jоints, tiрs, аnd bаsеs оf уоur fingеrs.</p>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td align="center"><img src="https://mediapipe.dev/images/mobile/pose_tracking_full_body_landmarks.png" ></td>
+  </tr>
+ </table>
+      
+ 1. left_elbow_angle From left_shoulder , left_elbow and left_wrist.
+ 1. right_elbow_angle From right_shoulder , right_elbow and right_wrist.
+ 1. left_shoulder_angle From left_shoulder , left_elbow and left_hip.
+ 1. right_shoulder_angle From right_shoulder , right_elbow and right_hip.
+      
+ ***
+      
+ ### 2. MoveNet Model(Test and Train Dataset)
+
+  <img src="https://www.marktechpost.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-25-at-11.54.07-AM-768x505.png">
+  <br/>
+  
+  - Numpy and Pandas Library for CSV files.
+  - opencv (cv2) for realtime video detection and extraction of landmark  points.
+  - tensorflow : MovenetModel Training and Testing.
+  - sklearn
+  - Keras Model : Pose Classification
+  
+
+### Development Environment : 
+  
+  - VS Code
+  - Python 3.10.7
+  - tensorflow
+  - Github Codespace
+  
+  
+  
+***
+  
 ## Literature Survey
 
 <table size="10">
@@ -271,44 +381,4 @@ tуреs.</li></ul</td>
  <br/>
  
       
-  The division of the work is done in the following order amongst all the team members of the project:
-
-      
-### Our project will be divided into three parts:
-
-<b>Part 1:</b> Preprocess the pose classification training data into a CSV file,specifying the landmarks (body key points) and ground truth pose labelsrecognized by the MoveNet model.The preprocessing of pose classification training data into a CSV file involvesseveral steps, which will be divided amongst the team members.We will be working together to ensure that the annotated data is accurate andconsistent, and to validate the extracted key points and the created CSV file. Wewill also consider data augmentation techniques to increase the size of the training data, such as flipping, rotation, or scaling.
-Overall, the preprocessing of pose classification training data into a CSV file is
-a crucial step in training a pose estimation model and will be completed by the
-entire team.
-
-<b>Part 2:</b> Build and train a pose classification model that takes landmark coordinates from a CSV file as input and outputs predicted labels. Building and training a pose classification model involves several steps, which will be divided amongst the team members. Everyone will work together to implement and train the model, ensuring that the model architecture and training parameters are correctly specified and will collaborate to evaluate the model's performance on the validation set and make any necessary adjustments to improve its accuracy. Overall, building and training a pose classification model requires a strong understanding of deep learning and computer vision, as well as a well-structured approach to model selection, implementation, and training.
-      
-<b>Part 3:</b> Convert the pose classification model to TFLite. Converting a pose classification model to TFLite involves several steps, which can be divided into tasks amongst all the team members. Everyone will work together to ensure that the conversion process is carried out smoothly and that the TFLite model is optimised and validated correctly. Overview: As there is no Dataset available on the internet so we are going to use our own dataset which consist of 7 different traffic police /pose images.Our dataset consist of almost around 5000-6000 different images of the shortlisted important 7 traffic poses.
-      
-      
-      
- ## Timeline
-<img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Timeline.png?raw=true">
-      <br/>
  
- ## Workflow
-<img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/workflow.jpg?raw=true">
-## Tools/Software - Implementation
-      
- ### 1. Mediapipe Library
- 
-<p>MеdiаPiре is а Frаmеwоrk fоr building mасhinе lеаrning рiреlinеs fоr рrосеssing timе-sеriеs dаtа likе vidео, аudiо, еtс. This сrоss-рlаtfоrm Frаmеwоrk wоrks in Dеsktор/Sеrvеr, Andrоid, iOS, аnd еmbеddеd dеviсеs likе Rаsрbеrrу Pi аnd Jеtsоn Nаnо. <br/>MеdiаPiре Tооlkit соmрrisеs thе Frаmеwоrk аnd thе Sоlutiоns. Hаndроsе rесоgnitiоn is а dеер lеаrning tесhniquе thаt аllоws уоu tо dеtесt diffеrеnt роints оn уоur hаnd. Thеsе роints оn уоur hаnd аrе соmmоnlу rеfеrrеd tо аs lаndmаrks. Thеsе lаndmаrks соnsist оf jоints, tiрs, аnd bаsеs оf уоur fingеrs.</p>
-<table cellpadding="0" cellspacing="0" border="0" width="100%">
-  <tr>
-    <td align="center"><img src="https://mediapipe.dev/images/mobile/pose_tracking_full_body_landmarks.png" ></td>
-  </tr>
- </table>
-      
- 1. left_elbow_angle From left_shoulder , left_elbow and left_wrist.
- 1. right_elbow_angle From right_shoulder , right_elbow and right_wrist.
- 1. left_shoulder_angle From left_shoulder , left_elbow and left_hip.
- 1. right_shoulder_angle From right_shoulder , right_elbow and right_hip.
-      
- ***
-      
- ### 2. MoveNet Model
