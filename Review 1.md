@@ -29,7 +29,7 @@ Different Traffic Gesture - Pose detection
 2.Build and train a pose classification model that takes landmark coordinates from a CSV file as input and outputs predicted labels-<br/>
 <b>Vandit Gabani(20BCI0090) ,Aditi(20BCI0128) , Shaunak(20BCI0138)</b><br/><br/>
 
-3.Convert the pose classification model to TFLite and Training Using Movenet Model-<br/>
+3.Convert the pose classification model to TFLite and Testing Using Movenet Model-<br/>
 <b>Harsh(20BCI0271) , Payal(20BCE2759) , Yash(20BCI0176)</b><br/><br/>
 
 
@@ -80,7 +80,7 @@ hаnd signаl dеtесtiоn аlgоrithm withоut skеlеtоns. Instеаd оf sk�
 <div align="justify">
 
 <b>Part 1:</b> <br/>
-Preprocess the pose classification training data into a CSV file,specifying the landmarks (body key points) and ground truth pose labelsrecognized by the Mediapipe and MoveNet.<br/>
+DATASET Collection and Preprocess the pose classification training data into a CSV file,specifying the landmarks (body key points) and ground truth pose labelsrecognized by the Mediapipe and MoveNet.<br/>
 <b>Konark Patel(20BCI0169) , Nikhil(20BCI0159)</b><br/><br/>
 The preprocessing of pose classification training data into a CSV file involvesseveral steps, which will be divided amongst the team members.We will be working together to ensure that the annotated data is accurate andconsistent, and to validate the extracted key points and the created CSV file. Wewill also consider data augmentation techniques to increase the size of the training data, such as flipping, rotation, or scaling.
 Overall, the preprocessing of pose classification training data into a CSV file is
@@ -88,12 +88,12 @@ a crucial step in training a pose estimation model and will be completed by the
 entire team.
 
 <b>Part 2:</b> <br/>
-Build and train a pose classification model that takes landmark coordinates from a CSV file as input and outputs predicted labels.<br/>
+Build and train a pose classification model(MoveNet Model) that takes landmark coordinates from a CSV file as input and outputs predicted labels.<br/>
 <b>Vandit Gabani(20BCI0090) ,Aditi(20BCI0128) , Shaunak(20BCI0138)</b><br/><br/>
 Building and training a pose classification model involves several steps, which will be divided amongst the team members. Everyone will work together to implement and train the model, ensuring that the model architecture and training parameters are correctly specified and will collaborate to evaluate the model's performance on the validation set and make any necessary adjustments to improve its accuracy. Overall, building and training a pose classification model requires a strong understanding of deep learning and computer vision, as well as a well-structured approach to model selection, implementation, and training.
       
 <b>Part 3:</b> <br/>
-Convert the pose classification model to TFLite.<br/>
+Convert the pose classification model to TFLite and Test and Deployment of Model.<br/>
 <b>Harsh(20BCI0271) , Payal(20BCE2759) , Yash(20BCI0176)</b><br/><br/>
 Converting a pose classification model to TFLite involves several steps, which can be divided into tasks amongst all the team members. Everyone will work together to ensure that the conversion process is carried out smoothly and that the TFLite model is optimised and validated correctly. Overview: As there is no Dataset available on the internet so we are going to use our own dataset which consist of 7 different traffic police /pose images.Our dataset consist of almost around 5000-6000 different images of the shortlisted important 7 traffic poses.
     
