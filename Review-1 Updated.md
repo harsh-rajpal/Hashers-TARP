@@ -21,7 +21,20 @@ Different Traffic Gesture - Pose detection
 | 20BCI0169 | Konark Patel              |
 | 20BCI0159 | Nikhil Harshwardhan       |
 
----
+***
+## Roles - Responsibilities : 
+
+1.Collecting Data and Extracting Landmarks points and finding Angles for Different pose Using Mediapipe and Movenet Model - <br/>
+<b>Konark Patel(20BCI0169) , Nikhil(20BCI0159)</b><br/><br/>
+
+2.Build and train a pose classification model that takes landmark coordinates from a CSV file as input and outputs predicted labels-<br/>
+<b>Vandit Gabani(20BCI0090) ,Aditi(20BCI0128) , Shaunak(20BCI0138)</b><br/><br/>
+
+3.Convert the pose classification model to TFLite and Testing Using Movenet Model-<br/>
+<b>Harsh(20BCI0271) , Payal(20BCE2759) , Yash(20BCI0176)</b><br/><br/>
+
+
+***
 
 <h2>Abstract</h2>
 <ul>
