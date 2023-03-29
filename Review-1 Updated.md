@@ -57,6 +57,8 @@ Mediapipe will be utilised in its development.
 </ol>
 
 <h2>2. MoveNet Model(Test and Train Dataset)</h3>
+<p><ul></ul><li>MoveNet is a model that recognises 17 key spots on a body very quickly and precisely.</li><li>Two variations of the model, dubbed Lightning and Thunder, are available on TF Hub.</li><li>Thunder is designed for applications requiring great precision, whereas Lightning is designed for applications where latency is crucial.</li><li>For the majority of contemporary computers, laptops, and phones, both models operate faster than real time (30+ FPS), which is essential for live fitness, health, and wellness applications.</li></p>
+
 <img src="https://www.marktechpost.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-25-at-11.54.07-AM-768x505.png">
   </br>
   <ul>
@@ -78,6 +80,7 @@ Mediapipe will be utilised in its development.
   </br>
   
   <p>By identifying the 32 description points on the dataset image we are able to identify the angles and position the subject is forming which helps determine its gesture.</br>
+  </br>
 # Other Applications:
       
  ### 1. Yoga Pose Classification With TensorFlow’s MoveNet Model
