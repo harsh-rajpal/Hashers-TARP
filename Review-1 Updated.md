@@ -15,3 +15,45 @@ Mediapipe will be utilised in its development.
     <li>Prior approaches used skeleton-based action recognition to identify hand signals in videos, requiring preprocessing and limiting generalizability to real-world problems. Accurate detection of hand signals requires distinguishing between intentional and non-intentional signals. The ability to differentiate situations affects the accuracy of detection.
     <li>The paper proposes a new method to recognize hand signals from raw video streams without preprocessing, overcoming the challenges of previous methods that relied on skeleton-based action recognition. The proposed method utilizes an attention-based spatial-temporal graph convolutional network (ASTGCN) that achieved higher accuracy than previous methods and can distinguish between intentional and non-intentional signals. The potential applications of this method include traffic management, public safety, and military operations. The paper highlights the significance of deep learning in recognizing hand signals in real-world environments.
   </ul>
+
+
+<h2>Tools and Software: Implementation</h2>
+<h3>1. Mediapipe Library(for Realtime Detection)</h3>
+<p>MеdiаPiре is а Frаmеwоrk fоr building mасhinе lеаrning рiреlinеs fоr рrосеssing timе-sеriеs dаtа likе vidео, аudiо, еtс. This сrоss-рlаtfоrm Frаmеwоrk wоrks in Dеsktор/Sеrvеr, Andrоid, iOS, аnd еmbеddеd dеviсеs likе Rаsрbеrrу Pi аnd Jеtsоn Nаnо. <br/>MеdiаPiре Tооlkit соmрrisеs thе Frаmеwоrk аnd thе Sоlutiоns. Hаndроsе rесоgnitiоn is а dеер lеаrning tесhniquе thаt аllоws уоu tо dеtесt diffеrеnt роints оn уоur hаnd. Thеsе роints оn уоur hаnd аrе соmmоnlу rеfеrrеd tо аs lаndmаrks. Thеsе lаndmаrks соnsist оf jоints, tiрs, аnd bаsеs оf уоur fingеrs.</p>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td align="center"><img src="https://mediapipe.dev/images/mobile/pose_tracking_full_body_landmarks.png" ></td>
+  </tr>
+ </table>
+<ol>
+ <li>left_elbow_angle From left_shoulder , left_elbow and left_wrist.
+ <li>right_elbow_angle From right_shoulder , right_elbow and right_wrist.
+ <li>left_shoulder_angle From left_shoulder , left_elbow and left_hip.
+ <li>right_shoulder_angle From right_shoulder , right_elbow and right_hip.
+</ol>
+
+<h2>2. MoveNet Model(Test and Train Dataset)</h3>
+<img src="https://www.marktechpost.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-25-at-11.54.07-AM-768x505.png">
+  </br>
+  <ul>
+    <li>Numpy and Pandas Library for CSV files.
+    <li>opencv (cv2) for realtime video detection and extraction of landmark  points.
+    <li>tensorflow : MovenetModel Training and Testing.
+    <li>sklearn
+    <li>Keras Model : Pose Classification
+  </ul>
+  
+  Example of Dataset:
+  </br><p>
+  <img src="https://user-images.githubusercontent.com/79594169/228626817-b2d97684-f687-4b62-8785-bff8c4fabd14.jpg">
+  </br>
+  
+  Dataset with overlapping model:
+  </br><p>
+  <img src="https://user-images.githubusercontent.com/79594169/228628410-c78704ba-5abf-45f8-91e8-ed993d9568eb.jpg">
+  </br>
+  
+  <p>By identifying the 32 description points on the dataset image we are able to identify the angles and position the subject is forming which helps determine its gesture.</br>
+  
+
+ 
