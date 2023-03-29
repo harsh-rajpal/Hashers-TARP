@@ -2,29 +2,31 @@
   <h1>Proposed Title: Traffic Police Hand Gesture Detection </h1>
 </div><br>
 
-***
+---
+
 ### Development Model:
 
 Different Traffic Gesture - Pose detection
 
 ## Group Members
-| Reg.No | Name |
-| ------ | ---- |
-| 20BCI0090 | Vandit Gabani |
-| 20BCI0128| Aditi Nitin Tagalpallewar |
-| 20BCI0176 | Yash Bobde|
-| 20BCI0271 | Harsh Rajpal |
-| 20BCE2759 | Payal Maheshwari |
-| 20BCI0138| Bagade Shaunak Rahul |
-| 20BCI0169 | Konark Patel|
-| 20BCI0159 | Nikhil Harshwardhan|
 
-***
+| Reg.No    | Name                      |
+| --------- | ------------------------- |
+| 20BCI0090 | Vandit Gabani             |
+| 20BCI0128 | Aditi Nitin Tagalpallewar |
+| 20BCI0176 | Yash Bobde                |
+| 20BCI0271 | Harsh Rajpal              |
+| 20BCE2759 | Payal Maheshwari          |
+| 20BCI0138 | Bagade Shaunak Rahul      |
+| 20BCI0169 | Konark Patel              |
+| 20BCI0159 | Nikhil Harshwardhan       |
+
+---
 
 <h2>Abstract</h2>
 <ul>
   <li>Gesture recognition is one of the most difficult challenges in computer vision. While recognising traffic police hand signals, one must take into account the speed and dependability of the instructing signal. It is significantly easier to extract the three-dimensional coordinates of skeletons when depth information is given with the photos. Here, we present a method for detecting hand signals that does not rely on skeletons. Instead of skeletons, we employ basic object detectors that have been trained to respond to hand signals. 
-<li>Autonomous vehicles require traffic police gesture recognition. Current traffic police gesture identification systems frequently extract pixel-level characteristics from RGB photos, which are incoherent owing to the absence of gesture skeleton features and can result in erroneous results. Existing object detection algorithms enable the detection of automobiles, trees, people, bicycles, animals, and so forth (YOLO). 
+<li>Autonomous vehicles require traffic police gesture recognition. Current traffic police gesture identification systems frequently extract pixel-level characteristics from RGB photos, which are incoherent owing to the absence of gesture skeleton features and can result in erroneous results. Existing object detection algorithms enable the detection of automobiles, trees, people, bicycles, animals, and so forth (YOLO).
 
 <li>In this project, we will employ the Convolutional Neural Network (CNN) approach (Deep Learning) to recognise traffic police hand signals. As there are no acceptable datasets available, we shall attempt to generate our own. 
 Mediapipe will be utilised in its development.
@@ -76,3 +78,35 @@ Mediapipe will be utilised in its development.
   </br>
   
   <p>By identifying the 32 description points on the dataset image we are able to identify the angles and position the subject is forming which helps determine its gesture.</br>
+# Other Applications:
+      
+ ### 1. Yoga Pose Classification With TensorFlow’s MoveNet Model
+      
+ <div class="row">
+  <div class="column">
+    <img src="https://user-images.githubusercontent.com/82700032/228626302-26257f0d-7fbf-4255-a1cf-588bfd223141.png" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="https://user-images.githubusercontent.com/82700032/228626917-e2c5dc19-1ef0-4e83-a043-a39f812683ec.png" style="width:50%">
+  </div>
+</div>
+      
+
+
+<font size="10">
+<div align="justify">
+
+### The process for yoga pose detection using the Movenet model can be broken down into the following steps:
+
+  <b>1. Data Collection:</b> Collect a dataset of yoga pose images or videos. The dataset should include a diverse range of individuals with different body types and clothing.
+
+ <b>2. Data Preprocessing: </b> Resize and normalize the images to a fixed size. This step ensures that the model can handle input of a consistent size and shape.
+
+ <b>3. Model Training: </b> Train the Movenet model on the preprocessed dataset. The model can be trained using supervised or unsupervised learning.
+
+ <b>4. Inference: </b> Use the trained model to detect yoga poses in real-time or on pre-recorded videos. Inference involves processing the input data using the trained model to output the predicted pose.
+
+ <b>5. Post-processing: </b> Clean up the predicted pose by removing outliers and smoothing the pose over time. This step ensures that the final pose is accurate and smooth.
+
+ <b>6. Visualization: </b> Visualize the predicted pose by overlaying it on top of the input image or video. This step provides a visual representation of the predicted pose for evaluation and analysis.
+  </div></font>
