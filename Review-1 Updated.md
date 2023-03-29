@@ -21,8 +21,9 @@ Different Traffic Gesture - Pose detection
 | 20BCI0169 | Konark Patel              |
 | 20BCI0159 | Nikhil Harshwardhan       |
 
-***
-## Roles - Responsibilities : 
+---
+
+## Roles - Responsibilities :
 
 1.Collecting Data and Extracting Landmarks points and finding Angles for Different pose Using Mediapipe and Movenet Model - <br/>
 <b>Konark Patel(20BCI0169) , Nikhil(20BCI0159)</b><br/><br/>
@@ -33,8 +34,7 @@ Different Traffic Gesture - Pose detection
 3.Convert the pose classification model to TFLite and Testing Using Movenet Model-<br/>
 <b>Harsh(20BCI0271) , Payal(20BCE2759) , Yash(20BCI0176)</b><br/><br/>
 
-
-***
+---
 
 <h2>Abstract</h2>
 <ul>
@@ -53,6 +53,55 @@ Mediapipe will be utilised in its development.
     <li>Prior approaches used skeleton-based action recognition to identify hand signals in videos, requiring preprocessing and limiting generalizability to real-world problems. Accurate detection of hand signals requires distinguishing between intentional and non-intentional signals. The ability to differentiate situations affects the accuracy of detection.
     <li>The paper proposes a new method to recognize hand signals from raw video streams without preprocessing, overcoming the challenges of previous methods that relied on skeleton-based action recognition. The proposed method utilizes an attention-based spatial-temporal graph convolutional network (ASTGCN) that achieved higher accuracy than previous methods and can distinguish between intentional and non-intentional signals. The potential applications of this method include traffic management, public safety, and military operations. The paper highlights the significance of deep learning in recognizing hand signals in real-world environments.
   </ul>
+### Division Of Work:
+      
+#### Our Project Will be Divided into 3 parts:
+
+<div align="justify">
+
+<b>Part 1:</b> <br/>
+DATASET Collection and Preprocess the pose classification training data into a CSV file,specifying the landmarks (body key points) and ground truth pose labelsrecognized by the Mediapipe and MoveNet.<br/>
+<b>Konark Patel(20BCI0169) , Nikhil(20BCI0159)</b><br/><br/>
+<ul><li>There are various processes involved in preparing pose classification training data into a CSV file, and they will be distributed among the team members. </li><li>Together, we will check the annotated data for accuracy and consistency, as well as the main points that were extracted and the CSV file that was produced.</li><li>To make the training data larger, we will also take into account data augmentation methods including flipping, rotating, and scaling.</li><li>Ultimately, the entire team will finish the preparation of posture categorization training data into a CSV file, which is an essential step in training a pose estimate model.</li></ul>
+
+<b>Part 2:</b> <br/>
+Build and train a pose classification model(MoveNet Model) that takes landmark coordinates from a CSV file as input and outputs predicted labels.<br/>
+<b>Vandit Gabani(20BCI0090) ,Aditi(20BCI0128) , Shaunak(20BCI0138)</b><br/><br/>
+
+<ul><li>There are various processes involved in creating and refining a pose categorization model, and they will be distributed among the team members.</li><li>To ensure that the model architecture and training parameters are properly stated, everyone will work together to construct and train the model.</li><li>They will also cooperate to assess the model's performance on the validation set and make any required modifications to increase its accuracy.</li><li>In general, developing and training a pose classification model necessitates a solid grasp of computer vision and deep learning, as well as a methodical approach to model choice, implementation, and training.</li></ul>
+Building and training a pose classification model involves several steps, which will be divided amongst the team members. Everyone will work together to implement and train the model, ensuring that the model architecture and training parameters are correctly specified and will collaborate to evaluate the model's performance on the validation set and make any necessary adjustments to improve its accuracy. Overall, building and training a pose classification model requires a strong understanding of deep learning and computer vision, as well as a well-structured approach to model selection, implementation, and training.
+
+<b>Part 3:</b> <br/>
+Convert the pose classification model to TFLite and Test and Deployment of Model.<br/>
+<b>Harsh(20BCI0271) , Payal(20BCE2759) , Yash(20BCI0176)</b><br/><br/>
+
+<ul>
+<li>There are various processes involved in converting a pose classification model to TFLite, which may be broken down into jobs for each team member.</li>
+<li>To guarantee that the conversion procedure goes without a hitch and that the TFLite model is appropriately optimised and validated, everyone will cooperate.</li>
+<li>Overview: We will utilise our own dataset, which consists of 7 distinct traffic police/pose photographs, as there isn't a dataset readily available online. </li>
+<li>Our dataset consists of almost 5000–6000 unique photos of the crucial 7 traffic postures that were narrowed down.</li>
+</ul>
+    
+  *** 
+      
+ ## Timeline
+<img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Timeline.png?raw=true">
+      <br/>
+ 
+ ## Workflow
+<img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/workflow.jpg?raw=true"><br/>
+
+---
+
+### Workflow Breakdown(Using Mediapipe):
+
+  <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Workflow%20Breakdown/mediapipeflowchart.png?raw=true">
+  
+### Workflow Breakdown(Using MoveNet Model):
+  
+  <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Workflow%20Breakdown/MoveNetflowchart.png?raw=true">
+  
+
 
 <h2>Tools and Software: Implementation</h2>
 <h3>1. Mediapipe Library(for Realtime Detection)</h3>
@@ -106,23 +155,22 @@ Mediapipe will be utilised in its development.
     <img src="https://user-images.githubusercontent.com/82700032/228626917-e2c5dc19-1ef0-4e83-a043-a39f812683ec.png" style="width:50%">
   </div>
 </div>
-      
-
 
 <font size="10">
 <div align="justify">
 
 ### The process for yoga pose detection using the Movenet model can be broken down into the following steps:
 
-  <b>1. Data Collection:</b> Collect a dataset of yoga pose images or videos. The dataset should include a diverse range of individuals with different body types and clothing.
+<b>1. Data Collection:</b> Collect a dataset of yoga pose images or videos. The dataset should include a diverse range of individuals with different body types and clothing.
 
- <b>2. Data Preprocessing: </b> Resize and normalize the images to a fixed size. This step ensures that the model can handle input of a consistent size and shape.
+<b>2. Data Preprocessing: </b> Resize and normalize the images to a fixed size. This step ensures that the model can handle input of a consistent size and shape.
 
- <b>3. Model Training: </b> Train the Movenet model on the preprocessed dataset. The model can be trained using supervised or unsupervised learning.
+<b>3. Model Training: </b> Train the Movenet model on the preprocessed dataset. The model can be trained using supervised or unsupervised learning.
 
- <b>4. Inference: </b> Use the trained model to detect yoga poses in real-time or on pre-recorded videos. Inference involves processing the input data using the trained model to output the predicted pose.
+<b>4. Inference: </b> Use the trained model to detect yoga poses in real-time or on pre-recorded videos. Inference involves processing the input data using the trained model to output the predicted pose.
 
- <b>5. Post-processing: </b> Clean up the predicted pose by removing outliers and smoothing the pose over time. This step ensures that the final pose is accurate and smooth.
+<b>5. Post-processing: </b> Clean up the predicted pose by removing outliers and smoothing the pose over time. This step ensures that the final pose is accurate and smooth.
 
- <b>6. Visualization: </b> Visualize the predicted pose by overlaying it on top of the input image or video. This step provides a visual representation of the predicted pose for evaluation and analysis.
+<b>6. Visualization: </b> Visualize the predicted pose by overlaying it on top of the input image or video. This step provides a visual representation of the predicted pose for evaluation and analysis.
+
   </div></font>
