@@ -69,8 +69,6 @@ Build and train a pose classification model(MoveNet Model) that takes landmark c
 <b>Vandit Gabani(20BCI0090) ,Aditi(20BCI0128) , Shaunak(20BCI0138)</b><br/><br/>
 
 <ul><li>There are various processes involved in creating and refining a pose categorization model, and they will be distributed among the team members.</li><li>To ensure that the model architecture and training parameters are properly stated, everyone will work together to construct and train the model.</li><li>They will also cooperate to assess the model's performance on the validation set and make any required modifications to increase its accuracy.</li><li>In general, developing and training a pose classification model necessitates a solid grasp of computer vision and deep learning, as well as a methodical approach to model choice, implementation, and training.</li></ul>
-Building and training a pose classification model involves several steps, which will be divided amongst the team members. Everyone will work together to implement and train the model, ensuring that the model architecture and training parameters are correctly specified and will collaborate to evaluate the model's performance on the validation set and make any necessary adjustments to improve its accuracy. Overall, building and training a pose classification model requires a strong understanding of deep learning and computer vision, as well as a well-structured approach to model selection, implementation, and training.
-
 <b>Part 3:</b> <br/>
 Convert the pose classification model to TFLite and Test and Deployment of Model.<br/>
 <b>Harsh(20BCI0271) , Payal(20BCE2759) , Yash(20BCI0176)</b><br/><br/>
