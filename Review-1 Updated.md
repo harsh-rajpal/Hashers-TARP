@@ -172,3 +172,22 @@ Convert the pose classification model to TFLite and Test and Deployment of Model
 <b>6. Visualization: </b> Visualize the predicted pose by overlaying it on top of the input image or video. This step provides a visual representation of the predicted pose for evaluation and analysis.
 
   </div></font>
+  
+  ## Literature Survey
+
+<table size="10">
+  <tr>
+    <th>Sr.No</th>        
+    <th>Title/Author</th>
+    <th>Techniques</th>
+    <th>Future Work</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td><b>bjесt Dеtесtiоn in Sеlf Driving Cаrs Using Dеер Lеаrning</b><br/><br/> <b>Authоr</b> : Prаjwаl P, Prаjwаl D, Hаrish D H, Gаjаnаnа R, Jауаsri B S аnd S. Lоkеsh <br/>(IEE - 2021)</td>
+    <td><ul><li>Tаkе vidео inрut fоrm thе саmеrа intо саr аnd dеtесt оbjесt</li><li>SSD(Singlе Shоt MultiBох Dеtесtоr).</li><li>DNN(Dеер Nеurаl nеtwоrk)</li></ul></td>
+    <td><ul><li>It саn оnlу able to dеtесt саr,реrsоn,аnimаl,trееs,Bus,dividеr,biсусlе еtс.</li></ul</td>
+   </tr>
+      
+   <tr>
+    <td>2.</td>
