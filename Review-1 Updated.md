@@ -1,3 +1,9 @@
+<div align="center">
+  <h1>Proposed Title: Traffic Police Hand Gesture Detection </h1>
+</div><br>
+
+***
+
 <h2>Abstract</h2>
 <ul>
   <li>Gesture recognition is one of the most difficult challenges in computer vision. While recognising traffic police hand signals, one must take into account the speed and dependability of the instructing signal. It is significantly easier to extract the three-dimensional coordinates of skeletons when depth information is given with the photos. Here, we present a method for detecting hand signals that does not rely on skeletons. Instead of skeletons, we employ basic object detectors that have been trained to respond to hand signals. 
