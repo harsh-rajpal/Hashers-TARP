@@ -95,11 +95,11 @@ Tasks in various phases using flowchart diagram</br>
 ---
 
 ### Workflow Breakdown(Using Mediapipe):
-
+Various steps to be followed in Mediapipe using a flowchart diagram</br>
   <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Workflow%20Breakdown/mediapipeflowchart.png?raw=true">
   
 ### Workflow Breakdown(Using MoveNet Model):
-  
+  Various steps to be followed for MoveNet Model using a flowchart diagram</br>
   <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Workflow%20Breakdown/MoveNetflowchart.png?raw=true">
   
 
