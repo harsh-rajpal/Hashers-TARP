@@ -36,7 +36,9 @@ Different Traffic Gesture - Pose detection
 
 ---
 
-<h2>Abstract</h2>
+## Abstract
+<font size="10">
+<div align="justify">
 <ul>
   <li>Gesture recognition is one of the most difficult challenges in computer vision. While recognising traffic police hand signals, one must take into account the speed and dependability of the instructing signal. It is significantly easier to extract the three-dimensional coordinates of skeletons when depth information is given with the photos. Here, we present a method for detecting hand signals that does not rely on skeletons. Instead of skeletons, we employ basic object detectors that have been trained to respond to hand signals. 
 <li>Autonomous vehicles require traffic police gesture recognition. Current traffic police gesture identification systems frequently extract pixel-level characteristics from RGB photos, which are incoherent owing to the absence of gesture skeleton features and can result in erroneous results. Existing object detection algorithms enable the detection of automobiles, trees, people, bicycles, animals, and so forth (YOLO).
@@ -44,8 +46,14 @@ Different Traffic Gesture - Pose detection
 <li>In this project, we will employ the Convolutional Neural Network (CNN) approach (Deep Learning) to recognise traffic police hand signals. As there are no acceptable datasets available, we shall attempt to generate our own. 
 Mediapipe will be utilised in its development.
 </ul>
+</div></font>
+<br>
 
-<h2>Introduction</h2>
+***
+
+## Introduction
+<font size="10">
+<div align="justify">
   <ul>
     <li>Artificial intelligence has been implemented in various industries, particularly in computer vision, improving object detection and classification. Traffic signals play a significant role in traffic flow and safety, and AI can be used to enhance their effectiveness.
     <li>Recognizing traffic police gestures is challenging due to the lack of interpretable features from RGB images and interference from complex environments. Gesture skeleton extractor (GSE) can be used to extract interpretable skeleton coordinate information, eliminating background interference. However, existing deep learning methods are not suitable for handling gesture skeleton features, requiring the development of new methods.
@@ -53,9 +61,14 @@ Mediapipe will be utilised in its development.
     <li>Prior approaches used skeleton-based action recognition to identify hand signals in videos, requiring preprocessing and limiting generalizability to real-world problems. Accurate detection of hand signals requires distinguishing between intentional and non-intentional signals. The ability to differentiate situations affects the accuracy of detection.
     <li>The paper proposes a new method to recognize hand signals from raw video streams without preprocessing, overcoming the challenges of previous methods that relied on skeleton-based action recognition. The proposed method utilizes an attention-based spatial-temporal graph convolutional network (ASTGCN) that achieved higher accuracy than previous methods and can distinguish between intentional and non-intentional signals. The potential applications of this method include traffic management, public safety, and military operations. The paper highlights the significance of deep learning in recognizing hand signals in real-world environments.
   </ul>
-### Division Of Work:
+</div></font>
+<br>
+
+***
+
+## Division Of Work:
       
-#### Our Project Will be Divided into 3 parts:
+### Our Project Will be Divided into 3 parts:
 
 <div align="justify">
 
@@ -104,7 +117,7 @@ Various steps to be followed in Mediapipe using a flowchart diagram</br>
   
 
 
-<h2>Tools and Software: Implementation</h2>
+## Tools and Software: Implementation
 <h3>1. Mediapipe Library(for Realtime Detection)</h3>
 <p><ul><li>MеdiаPiре is а Frаmеwоrk fоr building mасhinе lеаrning рiреlinеs fоr рrосеssing timе-sеriеs dаtа likе vidео, аudiо, еtс.</li><li> This сrоss-рlаtfоrm Frаmеwоrk wоrks in Dеsktор/Sеrvеr, Andrоid, iOS, аnd еmbеddеd dеviсеs likе Rаsрbеrrу Pi аnd Jеtsоn Nаnо.</li><li> MеdiаPiре Tооlkit соmрrisеs thе Frаmеwоrk аnd thе Sоlutiоns.</li><li> Hаndроsе rесоgnitiоn is а dеер lеаrning tесhniquе thаt аllоws уоu tо dеtесt diffеrеnt роints оn уоur hаnd.</li><li> Thеsе роints оn уоur hаnd аrе соmmоnlу rеfеrrеd tо аs lаndmаrks.</li><li> Thеsе lаndmаrks соnsist оf jоints, tiрs, аnd bаsеs оf уоur fingеrs.</li></ul></p>
 <table cellpadding="0" cellspacing="0" border="0" width="100%">
@@ -145,7 +158,11 @@ Various steps to be followed in Mediapipe using a flowchart diagram</br>
   <p>By identifying the 32 description points on the dataset image we are able to identify the angles and position the subject is forming which helps determine its gesture.</br>
   </br>
 # Other Applications:
-      
+
+ ![image](https://user-images.githubusercontent.com/82700032/228662581-312cc764-69d0-4634-a8ab-80548ca258ff.png)
+ 
+ ***
+ 
  ### 1. Yoga Pose Classification With TensorFlow’s MoveNet Model
       
  <div class="row">
@@ -175,7 +192,40 @@ Various steps to be followed in Mediapipe using a flowchart diagram</br>
 <b>6. Visualization: </b> Visualize the predicted pose by overlaying it on top of the input image or video. This step provides a visual representation of the predicted pose for evaluation and analysis.
 
   </div></font>
-  
+ 
+ ### 2. Instant Motion tracking using MediaPipe:
+      
+ <div class="row">
+  <div class="column">
+    <img src="https://mediapipe.dev/images/mobile/instant_motion_tracking_android_small.gif" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="https://4.bp.blogspot.com/-hZ5rq_NiERc/X0kYhGnu0iI/AAAAAAAAJVI/zUqHE8kZShQR14Oiax7MXNTBAbWmiEYXgCLcBGAsYHQ/s1600/unnamed%2B%25281%2529.gif" style="width:50%">
+  </div>
+</div>
+
+<font size="10">
+<div align="justify">
+
+### Instant motion tracking using MediaPipe involves the following steps:
+
+  <b>1. Install MediaPipe:</b> MediaPipe is an open-source framework developed by Google for building pipelines to process perceptual data. You can install MediaPipe by following the installation instructions provided on the official website.
+
+<b>2. Import MediaPipe and relevant libraries:</b> Once you have installed MediaPipe, you can import it along with other relevant libraries such as OpenCV for image processing.
+
+<b>3. Define the input source:</b> Define the input source, which could be a video file, a live video stream, or a series of images.
+
+<b>4. Create a MediaPipe pipeline:</b> Create a MediaPipe pipeline that includes the motion tracking module. MediaPipe provides pre-trained models for motion tracking that you c<b>an use out-of-the-box.
+
+<b>5. Process the input data:</b> Feed the input data to the pipeline and process it using the motion tracking module. MediaPipe will detect the motion and track it in real-time.
+
+<b>6. Visualize the output:</b> Finally, visualize the output of the motion tracking module using OpenCV or any other visualization library.
+
+
+  </div></font>
+
+***
+
   ## Literature Survey
 
 <table size="10">
@@ -343,3 +393,4 @@ NN tо bе trаinеd with раttеrns whiсh tаkе intо ассоunt thе еff�
  
  <br/>
  
+      ***
