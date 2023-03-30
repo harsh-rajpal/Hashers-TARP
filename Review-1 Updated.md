@@ -83,11 +83,13 @@ Convert the pose classification model to TFLite and Test and Deployment of Model
   *** 
       
  ## Timeline
- <b>The divison of project in sub phases using a Gant chart.</b>
+
+ The divison of project in sub phases using a Gant chart.</br>
 <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Timeline.png?raw=true">
       <br/>
  
  ## Workflow
+Tasks in various phases using flowchart diagram</br>
 <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/workflow.jpg?raw=true"><br/>
 
 ---
