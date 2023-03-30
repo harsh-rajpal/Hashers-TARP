@@ -108,11 +108,11 @@ Tasks in various phases using flowchart diagram</br>
 ---
 
 ### Workflow Breakdown(Using Mediapipe):
-Various steps to be followed in Mediapipe using a flowchart diagram</br>
+
   <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Workflow%20Breakdown/mediapipeflowchart.png?raw=true">
   
 ### Workflow Breakdown(Using MoveNet Model):
-  Various steps to be followed for MoveNet Model using a flowchart diagram</br>
+  
   <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Workflow%20Breakdown/MoveNetflowchart.png?raw=true">
   
 
@@ -145,19 +145,20 @@ Various steps to be followed in Mediapipe using a flowchart diagram</br>
     <li>Keras Model : Pose Classification
   </ul>
   
-  Example of Dataset:
+## Example of Dataset:
   </br><p>
   <img src="https://user-images.githubusercontent.com/79594169/228626817-b2d97684-f687-4b62-8785-bff8c4fabd14.jpg">
   </br>
   
-  Dataset with overlapping model:
+## Dataset with overlapping model:
   </br><p>
   <img src="https://user-images.githubusercontent.com/79594169/228628410-c78704ba-5abf-45f8-91e8-ed993d9568eb.jpg">
   </br>
   
   <p>By identifying the 32 description points on the dataset image we are able to identify the angles and position the subject is forming which helps determine its gesture.</br>
   </br>
-# Other Applications:
+
+## Other Applications:
 
  ![image](https://user-images.githubusercontent.com/82700032/228662581-312cc764-69d0-4634-a8ab-80548ca258ff.png)
  
@@ -193,16 +194,13 @@ Various steps to be followed in Mediapipe using a flowchart diagram</br>
 
   </div></font>
  
- ### 2. Instant Motion tracking using MediaPipe:
+***
+
+### 2. Instant Motion tracking using MediaPipe:
       
- <div class="row">
-  <div class="column">
-    <img src="https://mediapipe.dev/images/mobile/instant_motion_tracking_android_small.gif" style="width:50%">
-  </div>
-  <div class="column">
-    <img src="https://4.bp.blogspot.com/-hZ5rq_NiERc/X0kYhGnu0iI/AAAAAAAAJVI/zUqHE8kZShQR14Oiax7MXNTBAbWmiEYXgCLcBGAsYHQ/s1600/unnamed%2B%25281%2529.gif" style="width:50%">
-  </div>
-</div>
+<img src="https://mediapipe.dev/images/mobile/instant_motion_tracking_android_small.gif">
+<img src="https://4.bp.blogspot.com/-hZ5rq_NiERc/X0kYhGnu0iI/AAAAAAAAJVI/zUqHE8kZShQR14Oiax7MXNTBAbWmiEYXgCLcBGAsYHQ/s1600/unnamed%2B%25281%2529.gif">
+
 
 <font size="10">
 <div align="justify">
@@ -388,9 +386,43 @@ NN tо bе trаinеd with раttеrns whiсh tаkе intо ассоunt thе еff�
   </tr>
       
       
-      
 </table>
  
  <br/>
  
-      ***
+***
+      
+## Reference
+ 
+<font size="10">
+<div align="justify">
+  
+<ol>
+    <li> P. Prajwal, D. Prajwal, D. H. Harish, R. Gajanana, B. S. Jayasri,S. Lokesh, Object detection in self driving cars using deep learning (2021) 1–  
+      7doi:10.1109/ICSES52305.2021.9633965.</li>
+    <li>K. R, N. S, Pothole and object detection for an autonomous vehicle using yolo (2021) 1585–1589doi:10.1109/ICICCS51141.2021.9432186. </li>
+    <li>  A. Corovi´c, V. Ili´c, S. uri´c, M. Marijan, B. Pavkovi´c, The real-time detection of traffic participants using yolo algorithm (2018) 1–4doi:                       10.1109/TELFOR.2018.8611986.</li>
+    <li>M. Sahal, A. O. Kurniawan, R. E. A. Kadir, Object detection for autonomous vehicle using single camera with yolov4 and mapping algorithm (2021) 144–                   149doi:10.1109/ISRITI54043.2021.9702764. </li>
+    <li>H. Kim, Y. Lee, B. Yim, E. Park, H. Kim, On-road object detection
+         using deep neural network (2016) 1–4doi:10.1109/ICCE-Asia.2016.
+      7804765. </li>
+    <li> S. Ikram, N. Dhanda, American sign language recognition using convolutional neural network (2021) 1–12doi:10.1109/GUCON50781.2021.9573782.</li>
+    <li> T. Baek, Y.-G. Lee, Traffic control hand signal recognition using convolution and recurrent neural networks, Journal of Computational Design and                         Engineering 9 (2) (2022) 296–309. arXiv:https://academic.oup.com/jcde/article-pdf/9/2/296/42616944/qwab080.pdf, doi:10.1093/jcde/qwab080.   
+             URL https://doi.org/10.1093/jcde/qwab080</li>
+    <li> K. Bimbraw, C. J. Nycz, M. J. Schueler, Z. Zhang, H. K. Zhang, Prediction of metacarpophalangeal joint angles and classification of hand configurations              based on ultrasound imaging of the forearm (2022) 91–
+          97doi:10.1109/ICRA46639.2022.9812287.</li>
+    <li>Y. Valeja, S. Pathare, D. Patel, M. Pawar, Traffic sign detection using clara and yolo in python 1 (2021) 367–371. doi:10.1109/ICACCS51430.
+            2021.9442065.</li>
+    <li>S. Grigorescu, B. Trasnea, T. Cocias, G. Macesanu, A survey of deep learning techniques for autonomous driving, Journal of Field Robotics
+          37 (3) (2020) 362–386.</li>
+    <li> V. Catania, G. Ficili, D. Panno, An assessment of resource exploitation using artificial intelligence based traffic control strategies (1997) 162–
+          166doi:10.1109/ISCC.1997.615989.</li>
+    <li>C. Gheorghe, N. Filip, Road traffic analysis using unmanned aerial vehicle and image processing algorithms (2022) 1–5doi:10.1109/
+        AQTR55203.2022.9802058.</li>
+    <li>K. Pavani, P. Sriramya, Comparison of knn, ann, cnn and yolo algorithms for detecting the accurate traffic flow and build an intelligent transportation             system 2 (2022) 628–633. doi:10.1109/ICIPTM54933.2022.9753900. </li>
+    <li> H. He, Yolo target detection algorithm in road scene based on computer vision (2022) 1111–1114doi:10.1109/IPEC54454.2022.9777571.</li>
+    <li> N. Yadav, U. Thakur, A. Poonia, R. Chandel, Post-crash detection and traffic analysis (2021) 1092–1097doi:10.1109/SPIN52536.2021.9565964.</li>
+    <li> S. Shiravandi, M. Rahmati, F. Mahmoudi, Hand gestures recognition using dynamic bayesian networks (2013) 1–6doi:10.1109/RIOS.2013.6595318.</li>
+  
+  </ol>
+  </div></font>
