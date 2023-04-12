@@ -418,31 +418,41 @@ NN tо bе trаinеd with раttеrns whiсh tаkе intо ассоunt thе еff�
 <div align="justify">
   
 <ol>
-    <li> P. Prajwal, D. Prajwal, D. H. Harish, R. Gajanana, B. S. Jayasri,S. Lokesh, Object detection in self driving cars using deep learning (2021) 1–  
-      7doi:10.1109/ICSES52305.2021.9633965.</li>
-    <li>K. R, N. S, Pothole and object detection for an autonomous vehicle using yolo (2021) 1585–1589doi:10.1109/ICICCS51141.2021.9432186. </li>
-    <li>  A. Corovi´c, V. Ili´c, S. uri´c, M. Marijan, B. Pavkovi´c, The real-time detection of traffic participants using yolo algorithm (2018) 1–4doi:                       10.1109/TELFOR.2018.8611986.</li>
-    <li>M. Sahal, A. O. Kurniawan, R. E. A. Kadir, Object detection for autonomous vehicle using single camera with yolov4 and mapping algorithm (2021) 144–                   149doi:10.1109/ISRITI54043.2021.9702764. </li>
-    <li>H. Kim, Y. Lee, B. Yim, E. Park, H. Kim, On-road object detection
-         using deep neural network (2016) 1–4doi:10.1109/ICCE-Asia.2016.
-      7804765. </li>
-    <li> S. Ikram, N. Dhanda, American sign language recognition using convolutional neural network (2021) 1–12doi:10.1109/GUCON50781.2021.9573782.</li>
-    <li> T. Baek, Y.-G. Lee, Traffic control hand signal recognition using convolution and recurrent neural networks, Journal of Computational Design and                         Engineering 9 (2) (2022) 296–309. arXiv:https://academic.oup.com/jcde/article-pdf/9/2/296/42616944/qwab080.pdf, doi:10.1093/jcde/qwab080.   
-             URL https://doi.org/10.1093/jcde/qwab080</li>
-    <li> K. Bimbraw, C. J. Nycz, M. J. Schueler, Z. Zhang, H. K. Zhang, Prediction of metacarpophalangeal joint angles and classification of hand configurations              based on ultrasound imaging of the forearm (2022) 91–
-          97doi:10.1109/ICRA46639.2022.9812287.</li>
-    <li>Y. Valeja, S. Pathare, D. Patel, M. Pawar, Traffic sign detection using clara and yolo in python 1 (2021) 367–371. doi:10.1109/ICACCS51430.
-            2021.9442065.</li>
-    <li>S. Grigorescu, B. Trasnea, T. Cocias, G. Macesanu, A survey of deep learning techniques for autonomous driving, Journal of Field Robotics
-          37 (3) (2020) 362–386.</li>
-    <li> V. Catania, G. Ficili, D. Panno, An assessment of resource exploitation using artificial intelligence based traffic control strategies (1997) 162–
-          166doi:10.1109/ISCC.1997.615989.</li>
-    <li>C. Gheorghe, N. Filip, Road traffic analysis using unmanned aerial vehicle and image processing algorithms (2022) 1–5doi:10.1109/
-        AQTR55203.2022.9802058.</li>
-    <li>K. Pavani, P. Sriramya, Comparison of knn, ann, cnn and yolo algorithms for detecting the accurate traffic flow and build an intelligent transportation             system 2 (2022) 628–633. doi:10.1109/ICIPTM54933.2022.9753900. </li>
-    <li> H. He, Yolo target detection algorithm in road scene based on computer vision (2022) 1111–1114doi:10.1109/IPEC54454.2022.9777571.</li>
-    <li> N. Yadav, U. Thakur, A. Poonia, R. Chandel, Post-crash detection and traffic analysis (2021) 1092–1097doi:10.1109/SPIN52536.2021.9565964.</li>
-    <li> S. Shiravandi, M. Rahmati, F. Mahmoudi, Hand gestures recognition using dynamic bayesian networks (2013) 1–6doi:10.1109/RIOS.2013.6595318.</li>
+    
+  <li>S. Shiravandi, M. Rahmati and F. Mahmoudi, "Hand gestures recognition using dynamic Bayesian networks," 2013 3rd Joint Conference of AI & Robotics and 5th RoboCup Iran Open International Symposium, Tehran, Iran, 2013, pp. 1-6, 
+    doi: 10.1109/RIOS.2013.6595318.</li>
   
-  </ol>
+  <li>N. Yadav, U. Thakur, A. Poonia and R. Chandel, "Post-Crash Detection and Traffic Analysis," 2021 8th International Conference on Signal Processing and Integrated Networks (SPIN), Noida, India, 2021, pp. 1092-1097, doi: 10.1109/SPIN52536.2021.9565964. </li>
+  
+  <li>  R. Kulkarni, S. Dhavalikar and S. Bangar, "Traffic Light Detection and Recognition for Self Driving Cars Using Deep Learning," 2018 Fourth International Conference on Computing Communication Control and Automation (ICCUBEA), Pune, India, 2018, pp. 1-4, doi: 10.1109/ICCUBEA.2018.8697819.</li>
+  
+  <li>Xiong, X.; Wu, H.; Min, W.; Xu, J.; Fu, Q.; Peng, C. Traffic Police Gesture Recognition Based on Gesture Skeleton Extractor and Multichannel Dilated Graph Convolution Network. Electronics 2021, 10, 551. https://doi.org/10.3390/electronics10050551</li>
+  
+  <li>K. R and N. S, "Pothole and Object Detection for an Autonomous Vehicle Using YOLO," 2021 5th International Conference on Intelligent Computing and Control Systems (ICICCS), Madurai, India, 2021, pp. 1585-1589, doi: 10.1109/ICICCS51141.2021.9432186.</li>
+  
+  <li> A. Ćorović, V. Ilić, S. Ðurić, M. Marijan and B. Pavković, "The Real-Time Detection of Traffic Participants Using YOLO Algorithm," 2018 26th Telecommunications Forum (TELFOR), Belgrade, Serbia, 2018, pp. 1-4, doi: 10.1109/TELFOR.2018.8611986.</li>
+    
+  
+  <li>M. Sahal, A. O. Kurniawan and R. E. A. Kadir, "Object Detection for Autonomous Vehicle using Single Camera with YOLOv4 and Mapping Algorithm," 2021 4th International Seminar on Research of Information Technology and Intelligent Systems (ISRITI), Yogyakarta, Indonesia, 2021, pp. 144-149, doi: 10.1109/ISRITI54043.2021.9702764.</li>
+  
+  <li> H. Kim, Y. Lee, B. Yim, E. Park and H. Kim, "On-road object detection using deep neural network," 2016 IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia), Seoul, Korea (South), 2016, pp. 1-4, doi: 10.1109/ICCE-Asia.2016.7804765.</li>
+  
+  <li>P. Das, T. Ahmed and M. F. Ali, "Static Hand Gesture Recognition for American Sign Language using Deep Convolutional Neural Network," 2020 IEEE Region 10 Symposium (TENSYMP), Dhaka, Bangladesh, 2020, pp. 1762-1765, doi: 10.1109/TENSYMP50017.2020.9230772.</li>
+  
+  <li>Taeseung Baek, Yong-Gu Lee, Traffic control hand signal recognition using convolution and recurrent neural networks, Journal of Computational Design and Engineering, Volume 9, Issue 2, April 2022, Pages 296–309, https://doi.org/10.1093/jcde/qwab080</li>
+  
+  <li> K. Bimbraw, C. J. Nycz, M. J. Schueler, Z. Zhang and H. K. Zhang, "Prediction of Metacarpophalangeal Joint Angles and Classification of Hand Configurations Based on Ultrasound Imaging of the Forearm," 2022 International Conference on Robotics and Automation (ICRA), Philadelphia, PA, USA, 2022, pp. 91-97, doi: 10.1109/ICRA46639.2022.9812287.</li>
+  
+  <li>Y. Valeja, S. Pathare, D. Patel and M. Pawar, "Traffic Sign Detection using Clara and Yolo in Python," 2021 7th International Conference on Advanced Computing and Communication Systems (ICACCS), Coimbatore, India, 2021, pp. 367-371, doi: 10.1109/ICACCS51430.2021.9442065.</li>
+  
+  <li>K. Pavani and P. Sriramya, "Comparison of KNN, ANN, CNN and YOLO algorithms for detecting the accurate traffic flow and build an Intelligent Transportation System," 2022 2nd International Conference on Innovative Practices in Technology and Management (ICIPTM), Gautam Buddha Nagar, India, 2022, pp. 628-633, doi: 10.1109/ICIPTM54933.2022.9753900.</li>
+  
+  <li> C. Gheorghe and N. Filip, "Road Traffic Analysis Using Unmanned Aerial Vehicle and Image Processing Algorithms," 2022 IEEE International Conference on Automation, Quality and Testing, Robotics (AQTR), Cluj-Napoca, Romania, 2022, pp. 1-5, doi: 10.1109/AQTR55203.2022.9802058.</li>
+  
+  <li> M. Mostafa and M. Ghantous, "A YOLO Based Approach for Traffic Light Recognition for ADAS Systems," 2022 2nd International Mobile, Intelligent, and Ubiquitous Computing Conference (MIUCC), Cairo, Egypt, 2022, pp. 225-229, doi: 10.1109/MIUCC55081.2022.9781682.</li>
+  
+  <li> L. H. Duong et al., "ODAR: A Lightweight Object Detection Framework for Autonomous Driving Robots," 2021 Digital Image Computing: Techniques and Applications (DICTA), Gold Coast, Australia, 2021, pp. 01-08, doi: 10.1109/DICTA52665.2021.9647256.</li>
+  
+  <li> H. He, "Yolo Target Detection Algorithm in Road Scene Based on Computer Vision," 2022 IEEE Asia-Pacific Conference on Image Processing, Electronics and Computers (IPEC), Dalian, China, 2022, pp. 1111-1114, doi: 10.1109/IPEC54454.2022.9777571.</li>
+</ol>
   </div></font>
