@@ -95,7 +95,7 @@ Convert the pose classification model to TFLite and Test and Deployment of Model
     
   *** 
       
- ## Timeline
+ ## Timeline - Gantt Chart  
 
  The divison of project in sub phases using a Gant chart.</br>
 <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Timeline.png?raw=true">
@@ -103,7 +103,27 @@ Convert the pose classification model to TFLite and Test and Deployment of Model
  
  ## Workflow
 Tasks in various phases using flowchart diagram</br>
-<img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/workflow.jpg?raw=true"><br/>
+<img src="Workflow Breakdown/Flowchart-5.png"><br/>
+
+---
+
+### 1.Planning and Modelling
+<img src="Workflow Breakdown/Flowchart-1.png"><br/>
+
+---
+
+### 2.DataCollection and Real time detection usinf mediapipe
+<img src="Workflow Breakdown/Flowchart-2.png"><br/>
+
+---
+
+### 3.Training Data model using MoveNet
+<img src="Workflow Breakdown/Flowchart-3.png"><br/>
+
+---
+
+### 4.Testing and Deployment
+<img src="Workflow Breakdown/Flowchart-4.png"><br/>
 
 ---
 
