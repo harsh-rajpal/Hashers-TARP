@@ -217,10 +217,10 @@ Tasks in various phases using flowchart diagram</br>
   <h4>Start Vehicle From Right</h4>
     <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/16.jpg">
 
-  <h4>Stop Vehicles From behind</h4>
+  <h4>Stop Vehicles From simultaneously From Front and Behind</h4>
     <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/17.jpg">
 
-  <h4>Stop Vehicles From Left and Right</h4>
+  <h4>Stop Vehicles From Behind</h4>
     <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/18.jpg">
 
   <h4>Stop Vehicles From Front</h4>
