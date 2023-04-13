@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Proposed Title: Traffic Police Hand Gesture Detection </h1>
+  <h1>Proposed Title: Traffic Police Hand Signals Detection Using Deep Learning MoveNet Model</h1>
 </div><br>
 
 ---
