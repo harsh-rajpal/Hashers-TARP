@@ -129,11 +129,11 @@ Tasks in various phases using flowchart diagram</br>
 
 ### Workflow Breakdown(Using Mediapipe):
 
-  <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Workflow%20Breakdown/mediapipeflowchart.png?raw=true">
+  <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Workflow%20Breakdown/mediapipeflowchart.png?raw=true" height="1000">
   
 ### Workflow Breakdown(Using MoveNet Model):
   
-  <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Workflow%20Breakdown/MoveNetflowchart.png?raw=true">
+  <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/Workflow%20Breakdown/MoveNetflowchart.png?raw=true" height="1000">
   
 
 
