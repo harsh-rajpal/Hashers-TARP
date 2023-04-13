@@ -167,16 +167,119 @@ Tasks in various phases using flowchart diagram</br>
   
 ## Example of Dataset:
   </br><p>
-  <img src="https://user-images.githubusercontent.com/79594169/228626817-b2d97684-f687-4b62-8785-bff8c4fabd14.jpg">
+  <img src="https://user-images.githubusercontent.com/79594169/228626817-b2d97684-f687-4b62-8785-bff8c4fabd14.jpg" height="500">
   </br>
   
 ## Dataset with overlapping model:
   </br><p>
-  <img src="https://user-images.githubusercontent.com/79594169/228628410-c78704ba-5abf-45f8-91e8-ed993d9568eb.jpg">
+  <img src="https://user-images.githubusercontent.com/79594169/228628410-c78704ba-5abf-45f8-91e8-ed993d9568eb.jpg" height="500">
   </br>
   
   <p>By identifying the 32 description points on the dataset image we are able to identify the angles and position the subject is forming which helps determine its gesture.</br>
   </br>
+  
+  <h4>NoPose</h4>
+  <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/13.jpg" height="500" >
+  
+  <h4>Start Vehicle on T point</h4>
+    <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/14.jpg">
+
+  <h4>Start Vehicle From Left</h4>
+    <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/15.jpg" height="500">
+
+  <h4>Start Vehicle From Right</h4>
+    <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/16.jpg">
+
+  <h4>Stop Vehicles From behind</h4>
+    <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/17.jpg">
+
+  <h4>Stop Vehicles From Left and Right</h4>
+    <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/18.jpg">
+
+  <h4>Stop Vehicles From Front</h4>
+    <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/19.jpg" height="500">
+
+  <h4>Start One Sided Vehicles</h4>
+    <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/20.jpg" height="500">
+
+  
+  ## Link to Code:
+  
+  https://drive.google.com/drive/folders/1id1utRFYJTjPkeAygFPQwEa2wxc2mEmC?usp=share_link
+  
+  ## Link to Project Demo(Video Presentation):
+ 
+  ## Result and Discussion on Findings:
+  
+  <h4> Description about dataset used:</h4>
+  Since the application is novel, no such dataset exits for the proposed application. Hence, we’ve prepared our own dataset consisting of
+around 4000 images, that are classified and captures multiple environment scenarios for maximum accuracy. 
+
+<h4> Experimental Results/Output:</h4>
+ <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/Result.PNG">
+ 
+ <h4>Accuracy</h4>
+ <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/accuracy.png">
+ 
+ <h4>Confusion Matrix</h4>
+  <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/confusion.png">
+
+ <h4>Classification Report</h4>
+  <img src="https://github.com/harsh-rajpal/Hashers-TARP/blob/main/images/class.PNG">
+
+
+ ## Issues in Existing System:
+  <font size="10">
+<div align="justify">
+<ul>
+  <li>Hand gesture recognition is an important task for traffic police as it enables them to control traffic flow more efficiently. In order to develop a deep learning model for hand gesture recognition, one approach is to use popular object detection models like YOLO. However, a slight change in the background can entirely change the image for the model, leading to false positives or true negatives in the predictions.To overcome this limitation, we need to train the model on a diverse set of images that capture different backgrounds, lighting conditions, and camera angles. This will enable the model to generalize better to new images that it has not seen before. 
+
+<li>Autonomous vehicles require traffic police gesture recognition. Current traffic police gesture identification systems frequently extract pixel-level characteristics from RGB photos, which are incoherent owing to the absence of gesture skeleton features and can result in erroneous results. Existing object detection algorithms enable the detection of automobiles, trees, people, bicycles, animals, and so forth (YOLO).
+
+<li>Another approach for hand gesture recognition is to use heuristic-based models that detect gestures on the basis of the location of feature points as perceived by the camera. However, this approach fails to perform with slight deviations in the relative position of the object on the image, slight shift in angle with respect to the camera and also the distance the object is from the camera. 
+  
+<li>To address this issue, we can use a combination of heuristic-based and deep learning-based
+approaches. The heuristic-based model can be used as a pre-processing step to detect the
+location of the hand in the image and estimate its orientation and distance from the camera.
+This information can then be used to crop the image and feed it to a deep learning model
+for gesture recognition. 
+  
+  <li>Moreover, data augmentation techniques such as random rotations, translations, and scaling can be applied to the training data to make the model more robust to variations in the input. In addition, we can also use techniques such as transfer learning, where a pretrained model on a large dataset can be fine-tuned on a smaller dataset of hand gestures to improve its performance.
+    
+  <li>Overall, developing an accurate and robust hand gesture recognition model for traffic police requires careful consideration of various factors such as the choice of model, diversity of training data, data augmentation techniques, and pre-processing steps.
+</ul>
+</div></font>
+<br>
+  
+  ## Novelty of proposed work:
+  <font size="10">
+<div align="justify">
+<ul>  
+   
+   <li>Nowdays In autonomous vehicles to detect different objects like other cars,trees,human,animals,water etc..YOLO algorithm is used,and this YOLO Algorithm has one drawback which is it can not detect traffic police gestures (Which is important in indian scenario) ,so our Movenet Model will overcome this issue and it is trained in such way that it can easily detect different traffic police gestures. 
+     
+   <li>As there are no dataset available for traffic police gestures we have collected around 5000 images and made our own custom dataset.We have collected this by making video of every pose and than extracted images from that video.
+      
+   <li>In Present in indian scenario there is no algorithm available which can able to detect this type of traffic police gestures,we are the first one to introduce this.
+</ul>
+</div></font>
+<br>  
+
+## Future Work:
+
+  <font size="10">
+<div align="justify">
+<ul>  
+   
+   <li>Add More images to Dataset to make our model more accurate in generating output and gussing the correct pose. 
+     
+   <li>Merge it with YOLO algorithm to make fully working model for autonomus vehicles.
+     
+   <li>We can make one software for taraining traffic police or cadets about fifferent traffic rules and gestures.
+
+</ul>
+</div></font>
+<br> 
 
 ## Other Applications:
 
