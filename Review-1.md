@@ -165,6 +165,33 @@ Tasks in various phases using flowchart diagram</br>
     <li>Keras Model : Pose Classification
   </ul>
   
+## How MoveNet Model Works?
+<ol>
+  <li><b>MoveNet Thunder:</b> The model chosen for the application is the Thunder variant of the Movenet model. MoveNet thunder, even though is slightly slower compared to its counterpart – lightening, is highly accurate, suitable for the proposed application.   
+  <li><b>detect(input_tensor, inference_count=3):</b> Runs detection on an input image.<br>
+    <b>Args :</b><br>
+    <b>input_tensor :</b> A [height, width, 3] Tensor of type tf.float32.Note that height and width can be anything since the image will be immediately resized according to
+    the needs of the model within thisfunction.<br>
+      <b>inference_count : </b>Number of times the model should run repeatly on the same input image to improve detection accuracy.<br>
+    <b>Returns :</b><br>A Person entity detected by the MoveNet.SinglePose. 
+  
+  <li><b>draw_prediction_on_image( image,person,crop_region=None,close_figure=True, keep_input_size=False):</b> Draws the keypoint predictions on image.<br>
+  <b>Args :</b><br>
+  <b>image:</b> An numpy array with shape [height, width, channel] representing the pixel values of the input image.<br>
+<b>person:</b> A person entity returned from the MoveNet.SinglePose model. <br>
+<b>close_figure:</b> Whether to close the plt figure after the function returns.<br>
+<b>keep_input_size:</b> Whether to keep the size of the input image.<br>
+    <b>Returns:<b>An numpy array with shape [out_height, out_width, channel] representing the image overlaid with keypoint predictions.
+      
+   <li>Class MoveNetPreprocessor(object):Helper class to preprocess pose sample images for classification.Creates a preprocessor to detection pose from images and save as CSV. 
+   <li>Split Dataset into train and test.
+   <li>load pose landmarks from images and store into csv files.
+   <li>get center point for all landmarks and store it;s distance from every landmarks into csv file.
+   <li>Now,normalize every coordinates by moving center to (0,0).
+   <li>Define the Model and train Datset.
+  </ol>
+  
+
 ## Example of Dataset:
   </br><p>
   <img src="https://user-images.githubusercontent.com/79594169/228626817-b2d97684-f687-4b62-8785-bff8c4fabd14.jpg" height="500">
